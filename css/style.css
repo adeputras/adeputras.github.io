@@ -341,9 +341,17 @@ section {
 }
 
 .about-text a {
-  color: #333
+  color: #333;
+  position: relative;
 }
-
+.about-text a:before{
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -4px;
+  background-color: #47a986;
+}
 .about-skills .progress {
   height: 15px;
   background-color: #dedede;
