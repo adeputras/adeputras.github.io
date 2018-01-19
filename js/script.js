@@ -37,6 +37,8 @@
       // parallax();
       changeBg()
     });
+
+    
     if ('ontouchstart' in window) {
       var click = 'touchstart'
     } else {
